@@ -4,5 +4,5 @@ Switch to master branch to view all codes</h1> </br>
 *Sorry i had to use master branch beacuse of dat files and upload them to github
 </h1>
 </br>
-<img src="main.jpg" width="300">
+<img src="main.jpg">
 <img src="main2.jpg" width="300">
