@@ -16,6 +16,17 @@ git clone https://github.com/moeinnm-99/Driver-Drowsiness-Detection.git
 cd Driver-Drowsiness-Detection
 ```
 3) Inside the main folder, open a terminal and run => python final-integration.py<br/>
+for linux:
+```bash
+python3 final-integration.py
+```
+</br>
+for windows:
+```bash
+python final-integration.py
+```
+</br>
+for mac
 4) After code main.py runs and take picture of your right and left eyes press key (Esc) to run other code and detection<br/>
 5) If dowsing detection detect send you request to open Google map for taking rest<br/>
 
