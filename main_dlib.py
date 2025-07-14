@@ -27,7 +27,7 @@ def writeEyes(a, b, img):
 # open_avg = train.getAvg()
 # close_avg = train.getAvg()
 
-alert = vlc.MediaPlayer('alert-sound.mp3')
+alert = vlc.MediaPlayer('/home/ghost/Desktop/driver-drowsiness-detection/alert-sound.mp3')
 frame_thresh = 15
 close_thresh = 0.3#(close_avg+open_avg)/2.0
 flag = 0
