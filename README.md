@@ -3,16 +3,21 @@ A system which alarms the driver as soon as it detects that the driver is becomi
 <br/><br/>
 Steps to run : <br/>
 1) Download/Clone this repository<br/>
-  ## Clone this Repository
+Clone this Repository
 
 To clone this project, use the following command:
 
 ```bash
 git clone https://github.com/moeinnm-99/Driver-Drowsiness-Detection.git
 ```
-2) Inside the main folder, open a terminal and run => python final-integration.py<br/>
-3) After code main.py runs and take picture of your right and left eyes press key (Esc) to run other code and detection<br/>
-4) If dowsing detection detect send you request to open Google map for taking rest<br/>
+</br>
+2) Go inside the foder
+```bash 
+cd Driver-Drowsiness-Detection
+```
+3) Inside the main folder, open a terminal and run => python final-integration.py<br/>
+4) After code main.py runs and take picture of your right and left eyes press key (Esc) to run other code and detection<br/>
+5) If dowsing detection detect send you request to open Google map for taking rest<br/>
 
 <br/>
 Working : 
