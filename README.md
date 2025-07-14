@@ -4,6 +4,9 @@ A system which alarms the driver as soon as it detects that the driver is becomi
 Steps to run : <br/>
 1) Download/Clone this repository<br/>
 2) Inside the main folder, open a terminal and run => python final-integration.py<br/>
+3) After code main.py runs and take picture of your right and left eyes press key (Esc) to run other code and detection<br/>
+4) If dowsing detection detect send you request to open Google map for taking rest<br/>
+
 <br/>
 Working : 
 <br/>
