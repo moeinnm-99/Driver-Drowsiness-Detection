@@ -1,4 +1,3 @@
-````markdown
 # Driver Drowsiness Detection 🚗💤
 
 A smart system that detects if the driver is becoming drowsy and alerts them immediately to prevent accidents. This project uses computer vision techniques to monitor eye closure, yawning, and body posture to identify signs of fatigue and warn the driver.
