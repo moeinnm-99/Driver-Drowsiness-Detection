@@ -1,55 +1,121 @@
-# driver-drowsiness-detection
-A system which alarms the driver as soon as it detects that the driver is becoming drowsy to prevent any accident.
-<br/><br/>
-Steps to run : <br/>
-1) Download/Clone this repository<br/>
-Clone this Repository
+# Driver Drowsiness Detection 🚗💤
 
-To clone this project, use the following command:
+A smart system that detects if the driver is becoming drowsy and alerts them immediately to prevent accidents. This project uses computer vision techniques to monitor eye closure, yawning, and body posture to identify signs of fatigue and warn the driver.
+
+
+---
+
+## 🛠️ How to Run the Project
+
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/moeinnm-99/Driver-Drowsiness-Detection.git
-```
-</br>
-2) Go inside the foder
-```bash 
+````
+
+### 2️⃣ Navigate to the Project Directory
+
+```bash
 cd Driver-Drowsiness-Detection
 ```
-3) Inside the main folder, open a terminal and run => python final-integration.py<br/>
-for linux:
+
+### 3️⃣ Run the Detection Script
+
+Open a terminal inside the main folder and run:
+
+* **Linux/macOS:**
+
 ```bash
 python3 final-integration.py
 ```
-</br>
-for windows:
+
+* **Windows:**
+
 ```bash
 python final-integration.py
 ```
-</br>
-for mac
-4) After code main.py runs and take picture of your right and left eyes press key (Esc) to run other code and detection<br/>
-5) If dowsing detection detect send you request to open Google map for taking rest<br/>
 
-<br/>
-Working : 
-<br/>
-<ul>
-<li>Open Eyes</li>
-<img src="https://github.com/SuperThinking/driver-drowsiness-detection/blob/master/working_images/OpenEyes.png" width=400/>
-<br/>
-<li>Closed Eyes</li>
-<img src="https://github.com/SuperThinking/driver-drowsiness-detection/blob/master/working_images/ClosedEyes.png" width=400/>
-<br/>
-<li>Drowsiness Detection</li>
-<img src="https://github.com/SuperThinking/driver-drowsiness-detection/blob/master/working_images/Drowsy.png" width=400/>
-<br/>
-<li>Drowsiness Detection (Body Posture)</li>
-<img src="https://github.com/SuperThinking/driver-drowsiness-detection/blob/master/working_images/DrowsyBodyPosture.png" width=400/>
-<br/>
-<li>Yawn Detection</li>
-<img src="https://github.com/SuperThinking/driver-drowsiness-detection/blob/master/working_images/YawnDetection.png" width=400/>
-<br/>
-<li>Drowsiness Detection (After Yawn)</li>
-<img src="https://github.com/SuperThinking/driver-drowsiness-detection/blob/master/working_images/DrowsyAfterYawn.png" width=400/>
-<br/>
-</ul>
+### 4️⃣ Usage Instructions
+
+* The program starts by taking pictures of your left and right eyes for calibration.
+* After capturing, press the `Esc` key to start the detection phase.
+* The system will then monitor:
+
+  * Eye openness
+  * Yawning
+  * Head and body posture
+* If signs of drowsiness are detected, the system will alert you and can open Google Maps to suggest rest stops.
+
+---
+
+## ⚙️ Features
+
+* ✅ Eye State Detection (Open vs Closed)
+* ✅ Yawn Detection
+* ✅ Body Posture Analysis
+* ✅ Real-time Drowsiness Alert
+* ✅ Rest Area Recommendation via Google Maps
+
+---
+
+## 📷 Sample Output
+
+### 👀 Open Eyes
+
+<img src="https://github.com/SuperThinking/driver-drowsiness-detection/blob/master/working_images/OpenEyes.png" width="400"/>
+
+### 😴 Closed Eyes
+
+<img src="https://github.com/SuperThinking/driver-drowsiness-detection/blob/master/working_images/ClosedEyes.png" width="400"/>
+
+### 🛑 Drowsiness Detected
+
+<img src="https://github.com/SuperThinking/driver-drowsiness-detection/blob/master/working_images/Drowsy.png" width="400"/>
+
+### 🧍 Drowsiness Based on Body Posture
+
+<img src="https://github.com/SuperThinking/driver-drowsiness-detection/blob/master/working_images/DrowsyBodyPosture.png" width="400"/>
+
+### 😮 Yawn Detection
+
+<img src="https://github.com/SuperThinking/driver-drowsiness-detection/blob/master/working_images/YawnDetection.png" width="400"/>
+
+### 😵 Drowsiness After Yawning
+
+<img src="https://github.com/SuperThinking/driver-drowsiness-detection/blob/master/working_images/DrowsyAfterYawn.png" width="400"/>
+
+---
+
+## ⚠️ Important Notes
+
+* The file `shape_predictor_68_face_landmarks.dat` is large (\~95MB). To avoid GitHub upload issues, consider using [Git Large File Storage (Git LFS)](https://git-lfs.github.com/).
+* Make sure you have the required Python packages installed. You can install them with:
+
+```bash
+pip install -r requirements.txt
+```
+
+* Tested with Python 3.x
+
+---
+
+## 📬 Contributions
+
+Contributions, issues, and feature requests are welcome! Feel free to:
+
+* Fork the repository
+* Create a new branch
+* Commit your changes
+* Open a pull request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Thank you for checking out the project! Drive safely! 🚗💨
+
+
