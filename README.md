@@ -8,4 +8,3 @@ Switch to master branch to view all codes</h1> </br>
 <img src="main2.jpg">
 
 A
-A
